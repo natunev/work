@@ -31,10 +31,9 @@ const routes =[
         components:{
             header: Navbar, //告知该路由头部应该展示那个组件
             default:Dishes,
-            //footer:Tabbar,
+            footer:Tabbar,
         },
-        meta:{ //路由其它基本信息 
-            //这里面的其它信息都可以进行在定义。
+        meta:{ 
             icon:'wap-home-o',
             title:'推荐菜',
             inTabbar: false ,
@@ -49,8 +48,7 @@ const routes =[
             default:Order,
             footer:Tabbar,
         },
-        meta:{ //路由其它基本信息 
-            //这里面的其它信息都可以进行在定义。
+        meta:{ 
             icon:'wap-home-o',
             title:'订单',
             inTabbar: true ,
@@ -63,7 +61,7 @@ const routes =[
             //header: NavBar //告知该路由头部应该展示那个组件
             header:Navbar,
             default:Personal,
-           // footer:Tabbar,
+           footer:Tabbar,
         },
         meta:{ //路由其它基本信息 
             //这里面的其它信息都可以进行在定义。
