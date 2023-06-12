@@ -1,12 +1,26 @@
 <template>
   <div id="app">
-    <nav>
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </nav>
-    <router-view/>
+    <header>
+      <!-- 命名视图 -->
+       <router-view name="header"/>
+    </header>
+    <main>
+        <router-view/>
+    </main>
+    <footer>
+      <!-- 命名视图 -->
+       <router-view name="footer"/>
+    </footer>
   </div>
+
 </template>
+
+<script>
+export default ({
+  name:'app', //组件名称
+})
+
+</script>
 
 <style lang="less">
 #app {
