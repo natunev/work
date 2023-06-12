@@ -1,6 +1,6 @@
 <template>
     <div>
-        推荐菜
+       
     </div>
 </template>
 <script>

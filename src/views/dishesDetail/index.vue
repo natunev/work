@@ -1,6 +1,6 @@
 <template>
     <div>
-        菜品详情
+       
     </div>
 </template>
 <script>
