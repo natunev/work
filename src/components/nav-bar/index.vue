@@ -1,6 +1,6 @@
 <template>
  <van-nav-bar
-  :title="$routes.meta.title"
+  :title="$route.meta.title"
   left-text="返回"
   left-arrow
   @click-left="onClickLeft"
@@ -13,7 +13,8 @@
 export default (await import('vue')).defineComponent({
     name:'NavBar',//组件名称
     data(){
-        return{            
+        return{ 
+
         }
     },
     methods: {
